@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/77d4172b70.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Studio++</title>
+</head>
+
+<body>
+    <header>
+        <div class="cover">
+            <div class="navbar-fixed" style="position: fixed; top: 0;">
+                <nav class="nav-wrapper transparent lighten-1 ">
+                    <div class="container">
+                        <a href="#" class="brand-logo" style="font-family: 'Merienda One', cursive;"><span class="logo">Studio++</span></a>
+                        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down navlinks">
+                            <li><a href="#services" style="font-weight: 800;"> Services</a></li>
+                            <li><a href="#work" style="font-weight: 800;">Work</a></li>
+                            <li><a href="#testimonials" style="font-weight: 800;">Testimonials</a></li>
+                            <li><a href="#contact" style="font-weight: 800;">Contact</a></li>
+                            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+<li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a></li>
+                            <li><a href="#" class=" indigo btn " style="border-radius: 10px;">Know More</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <ul class="sidenav grey lighten-2" id="mobile-menu">
+                <li><a class="sidenav-close" href="#services">Services</a></li>
+                <li><a class="sidenav-close" href="#work">Work</a></li>
+                <li><a class="sidenav-close" href="#testimonials">Testimonials</a></li>
+                <li><a class="sidenav-close" href="#contact">Contact</a></li>
+            </ul>
+            <div class="covertext left-align" style="padding-top: 250px;">
+                <div class="container-fluid">
+                    <p class="white-text s1">Development Services <br><span class="white-text s2">Your business needs our software solutions.</span></p>
+                    <div class=" green btn  btncover" style="margin-left: 53px; border-radius: 15px;">Start a Project</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.tabs').tabs();
+            $('.scrollspy').scrollSpy();
+        });
+
+    </script>
+
+</body>
+
+</html>
